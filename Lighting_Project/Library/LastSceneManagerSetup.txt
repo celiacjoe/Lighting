@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SCN_RealtimeEmissive.unity
+- path: Assets/Scenes/SCN_RealtimeDirectional.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
