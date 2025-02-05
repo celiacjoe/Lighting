@@ -2,23 +2,23 @@
 ## Basic to know
 
 ### Direct / Indirect Light
-Un éclairage direct est un éclairage sans rebond c'est à dire qu'il frappe la surface une seule fois mais ne diffuse pas ensuite. /
+Un éclairage direct est un éclairage sans rebond c'est à dire qu'il frappe la surface une seule fois mais ne diffuse pas ensuite. [/br]
 Un éclairage indirecte est un éclairage qui utilise les rebonds comme dans la vrai vie - plus il y a de rebond plus la lumière se diffuse dans l'environnement. Au plus elle est proche du premier rebond et au plus elle sera intense dans sa diffusion.
 
 ## Précalculé vs Realtime
-**Il y a principalement deux manières de lighter une scène:**\
+**Il y a principalement deux manières de lighter une scène:** [/br]
 #### Précalculé (Baked)
 Soit on précalcule les lights en amont (système de bake). Ce système est le plus opti et le plus qualitatif car il nous permet d'utiliser le raytracing. Il inscrit dans la texture de lumière (lightmap) la valeur de la lumiere et l'occlusion des objets de la scène sous la forme d'un atlas. Le système de précalcule des light offre un grand nombre de paramettre customizable pour avoir un rendu réaliste.\
 [/br]
-**Inconveniants:**\
+**Inconveniants:** [/br]
 - Peut impliquer un temps de calcul plus ou moin long en amont
 - Ne permet pas une gestion dynamiques de l'éclairage des objets. Convient pour les objets fixes.
 - Ne permet pas d'ombre dynamique
-  \
-  **Avantages:**\
+[/br]
+  **Avantages:** [/br]
   - L'éclairage est fin et plus réaliste
   - C'est la solution la plus optimisé (elle réduit grandement le nombre de drawcalls)
-  \
+[/br]
  **Type de Light:**\
 - Area light
 - Directional (en mode baked)
@@ -27,15 +27,15 @@ Soit on précalcule les lights en amont (système de bake). Ce système est le p
 #### Realtime (Enlighten)
 Sinon on utilise des lumières dynamique qui permettent de grande variation d'éclairage en temps réel et l'affichage des ombres sur les objets en mouvement. Elle est adaptée pour une lampe qu'on allume ou une lampe torche qui serait tenu par le joueur par exemple.
 
-**Inconveniants:**\
+**Inconveniants:**/
 - La qualité des lumière et des ombres est faible
 - Ne permet pas d'avoir des rebond lumineux qui sont indispensable à un éclairage réaliste
 - Plus il y a d'éclairage dynamique dans la scène plus la scène est gourmande en performance (chaque objets non static qui est touché par une lumière dynamique augmntent le nombre de drawcall)
-  \
-  **Avantages:**\
+/
+  **Avantages:**/
   - Projection des ombres
   - On peut faire varié instantanément l'intensité, la porté ou la couleur de l'éclairage en temps réel.
-  \
+/
  **Type de Light:**\
 - Directional (en mode realtime)
 - Point + spot light (en mode realtime)
