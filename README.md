@@ -9,7 +9,7 @@ Un éclairage indirecte est un éclairage qui utilise les rebonds comme dans la 
 **Il y a principalement deux manières de lighter une scène:**\
 #### Précalculé (Baked)
 Soit on précalcule les lights en amont (système de bake). Ce système est le plus opti et le plus qualitatif car il nous permet d'utiliser le raytracing. Il inscrit dans la texture de lumière (lightmap) la valeur de la lumiere et l'occlusion des objets de la scène sous la forme d'un atlas. Le système de précalcule des light offre un grand nombre de paramettre customizable pour avoir un rendu réaliste.\
-\
+[/br]
 **Inconveniants:**\
 - Peut impliquer un temps de calcul plus ou moin long en amont
 - Ne permet pas une gestion dynamiques de l'éclairage des objets. Convient pour les objets fixes.
