@@ -49,7 +49,7 @@ En fait, la bonne manière de faire son lighting est d'intégrer un mélange des
 
 Scène d'exemple avec un lighting réaliste par la diffusion de l'environnement (**HDRI**) [site avec des HDRI gratuites ](https://polyhaven.com/hdris).`
 
-![SampleScene to explain realtime emissive pipeline](`/img/RealtimeEmissive.png`)
+![SampleScene to explain realtime emissive pipeline](`/assets/img/RealtimeEmissive.png`)
 
 ## Realtime Emissive
 ![SampleScene to explain realtime emissive pipeline](`/img/RealtimeEmissive.png`)
