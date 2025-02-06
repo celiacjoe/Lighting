@@ -1,5 +1,4 @@
 # Unity scene for learn lighting
-## ***Basic to know***
 
 ## Direct / Indirect Light
 Un éclairage direct est un éclairage sans rebond c'est à dire qu'il frappe la surface une seule fois mais ne diffuse pas ensuite.  
