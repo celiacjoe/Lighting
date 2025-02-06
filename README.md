@@ -53,7 +53,7 @@ Scène d'exemple avec un lighting réaliste par la diffusion de l'environnement 
 
 ## Realtime Emissive
 
-![SampleScene to explain realtime emissive pipeline](/assets/images/RealtimeEmissive.png)
+![SampleScene to explain realtime emissive pipeline](assets/images/RealtimeEmissive.png)
   
 ## Full baked arealight
 
