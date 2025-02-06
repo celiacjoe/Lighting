@@ -52,11 +52,12 @@ Scène d'exemple avec un lighting réaliste par la diffusion de l'environnement 
 ![SampleScene to explain realtime emissive pipeline](https://github.com/celiacjoe/Lighting/assets/img/RealtimeEmissive.png)
 
 ## Realtime Emissive
-![SampleScene to explain realtime emissive pipeline](https://raw.githubusercontent.com/celiacjoe/Lighting/main/img/RealtimeEmissive.png)
+
+![SampleScene to explain realtime emissive pipeline](assets/images/RealtimeEmissive.png)
   
 ## Full baked arealight
 
-![SampleScene to explain full baked realitic light](/img/BakedArealLight.png)
+![SampleScene to explain full baked realitic light](images/BakedArealLight.png)
 Scène d'exemple avec un lighting réaliste qui utilise une arealight
 ## Tips
 
