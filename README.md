@@ -7,16 +7,16 @@ Un éclairage indirecte est un éclairage qui utilise les rebonds comme dans la 
 ## Précalculé vs Realtime
 **Il y a principalement deux manières de lighter une scène:**  
 # Précalculé (Baked)
-Soit on précalcule les lights en amont (système de bake). Ce système est le plus opti et le plus qualitatif car il nous permet d'utiliser le raytracing. Il inscrit dans la texture de lumière (lightmap) la valeur de la lumiere et l'occlusion des objets de la scène sous la forme d'un atlas. Le système de précalcule des light offre un grand nombre de paramettre customizable pour avoir un rendu réaliste.  
+Soit on précalcule les lights en amont (système de bake). Ce système est le plus opti et le plus qualitatif car il nous permet d'utiliser le raytracing. Il inscrit dans la texture de lumière (lightmap) la valeur de la lumière et l'occlusion des objets de la scène sous la forme d'un atlas. Le système de précalcule des lights offre un grand nombre de paramètre customizable pour avoir différent type de rendu dont un rendu réaliste.  
   
 #### **Inconveniants:**   
-- Peut impliquer un temps de calcul plus ou moin long en amont
-- Ne permet pas une gestion dynamiques de l'éclairage des objets. Convient pour les objets fixes.
+- Peut impliquer un temps de calcul plus ou moins long en amont
+- Ne permet pas une gestion dynamique de l'éclairage des objets. Convient pour les objets fixes.
 - Ne permet pas d'ombre dynamique
   
 #### **Avantages:**   
   - L'éclairage est fin et plus réaliste
-  - C'est la solution la plus optimisé (elle réduit grandement le nombre de drawcalls)
+  - C'est la solution la plus optimisée (elle réduit grandement le nombre de drawcalls)
   
  #### **Type de Light:**  
 1. Area light
@@ -24,7 +24,7 @@ Soit on précalcule les lights en amont (système de bake). Ce système est le p
 3. Point + spot light (en mode baked)
   
 ## Realtime (Enlighten)
-Sinon on utilise des lumières dynamique qui permettent de grande variation d'éclairage en temps réel et l'affichage des ombres sur les objets en mouvement. Elle est adaptée pour une lampe qu'on allume ou une lampe torche qui serait tenu par le joueur par exemple.
+Sinon on utilise des lumières dynamiques qui permettent de grande variation d'éclairage en temps réel et l'affichage des ombres sur les objets en mouvement. Elle est adaptée pour une lampe qu'on allume ou une lampe torche qui serait tenu par le joueur par exemple.
 
 #### **Inconveniants:**  
 - La qualité des lumière et des ombres est faible
